@@ -1,0 +1,7 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
+//hemos creado un objeto al que le pasamos los arreglos que instalamos
