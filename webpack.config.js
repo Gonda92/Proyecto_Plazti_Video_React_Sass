@@ -41,8 +41,12 @@ module.exports={
                     'css-loader',
                     'sass-loader'
                 ]
-            }   
-        ]
+            },
+            {
+                test: /\.(png|gif|jpg)$/,
+                type: "asset/resource"
+            } ,
+        ],
     },
     plugins:[
         new HtmlWebPackPlugin({
